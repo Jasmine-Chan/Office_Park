@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>CDAY</class>
+ <widget class="QWidget" name="CDAY">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>810</width>
+    <height>566</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QLineEdit" name="SearchData">
+   <property name="geometry">
+    <rect>
+     <x>2</x>
+     <y>70</y>
+     <width>117</width>
+     <height>34</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="Label_Left">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>0</y>
+     <width>95</width>
+     <height>65</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Qpbtn_Left">
+   <property name="geometry">
+    <rect>
+     <x>255</x>
+     <y>0</y>
+     <width>65</width>
+     <height>65</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Qpbtn_Right">
+   <property name="geometry">
+    <rect>
+     <x>620</x>
+     <y>0</y>
+     <width>65</width>
+     <height>65</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="Label_Right">
+   <property name="geometry">
+    <rect>
+     <x>685</x>
+     <y>0</y>
+     <width>125</width>
+     <height>65</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QTableWidget" name="DaytableWidget">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>65</y>
+     <width>650</width>
+     <height>501</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QTreeWidget" name="Day_treeWidget">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>110</y>
+     <width>160</width>
+     <height>456</height>
+    </rect>
+   </property>
+   <column>
+    <property name="text">
+     <string notr="true">1</string>
+    </property>
+   </column>
+  </widget>
+  <widget class="QPushButton" name="QpbtnLead">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>0</y>
+     <width>80</width>
+     <height>65</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="QpbtnSearch">
+   <property name="geometry">
+    <rect>
+     <x>123</x>
+     <y>70</y>
+     <width>34</width>
+     <height>34</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="QpbtnBack">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>80</width>
+     <height>65</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="QpbtnStretching">
+   <property name="geometry">
+    <rect>
+     <x>128</x>
+     <y>340</y>
+     <width>32</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Button_Year">
+   <property name="geometry">
+    <rect>
+     <x>320</x>
+     <y>0</y>
+     <width>150</width>
+     <height>65</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>PushButton</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Button_Month">
+   <property name="geometry">
+    <rect>
+     <x>470</x>
+     <y>0</y>
+     <width>150</width>
+     <height>65</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>PushButton</string>
+   </property>
+  </widget>
+  <zorder>DaytableWidget</zorder>
+  <zorder>Day_treeWidget</zorder>
+  <zorder>QpbtnLead</zorder>
+  <zorder>QpbtnSearch</zorder>
+  <zorder>QpbtnBack</zorder>
+  <zorder>SearchData</zorder>
+  <zorder>Label_Left</zorder>
+  <zorder>Qpbtn_Left</zorder>
+  <zorder>Qpbtn_Right</zorder>
+  <zorder>Label_Right</zorder>
+  <zorder>QpbtnStretching</zorder>
+  <zorder>Button_Year</zorder>
+  <zorder>Button_Month</zorder>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

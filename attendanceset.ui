@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>CATTENDANCESET</class>
+ <widget class="QWidget" name="CATTENDANCESET">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>810</width>
+    <height>566</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QCalendarWidget" name="SetCalendarWidget">
+   <property name="geometry">
+    <rect>
+     <x>142</x>
+     <y>34</y>
+     <width>526</width>
+     <height>289</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+  </widget>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>210</x>
+     <y>340</y>
+     <width>376</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout_3">
+    <property name="topMargin">
+     <number>6</number>
+    </property>
+    <property name="bottomMargin">
+     <number>6</number>
+    </property>
+    <item>
+     <widget class="QCheckBox" name="single_rest">
+      <property name="text">
+       <string>单休</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout_2">
+      <item>
+       <widget class="QCheckBox" name="select_rest">
+        <property name="text">
+         <string>单双周</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="label">
+        <property name="text">
+         <string>( 单休：</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QCheckBox" name="single_weekday">
+        <property name="text">
+         <string>单数周</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QCheckBox" name="twin_weekday">
+        <property name="text">
+         <string>偶数周</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="label_2">
+        <property name="text">
+         <string>）</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <widget class="QCheckBox" name="twin_rest">
+      <property name="text">
+       <string>双休</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QLabel" name="label_4">
+   <property name="geometry">
+    <rect>
+     <x>348</x>
+     <y>382</y>
+     <width>60</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>上班时间：</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_5">
+   <property name="geometry">
+    <rect>
+     <x>500</x>
+     <y>382</y>
+     <width>60</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>下班时间：</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="normalLable">
+   <property name="geometry">
+    <rect>
+     <x>212</x>
+     <y>409</y>
+     <width>84</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>周一至周五</string>
+   </property>
+  </widget>
+  <widget class="QTimeEdit" name="workTime_normal">
+   <property name="geometry">
+    <rect>
+     <x>348</x>
+     <y>408</y>
+     <width>100</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>100</width>
+     <height>20</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>100</width>
+     <height>20</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QTimeEdit" name="offworkTime_normal">
+   <property name="geometry">
+    <rect>
+     <x>500</x>
+     <y>408</y>
+     <width>100</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>100</width>
+     <height>20</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>100</width>
+     <height>20</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="restLable">
+   <property name="geometry">
+    <rect>
+     <x>212</x>
+     <y>435</y>
+     <width>48</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>周六</string>
+   </property>
+  </widget>
+  <widget class="QTimeEdit" name="workTime_rest">
+   <property name="geometry">
+    <rect>
+     <x>348</x>
+     <y>434</y>
+     <width>100</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>100</width>
+     <height>20</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>100</width>
+     <height>20</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QTimeEdit" name="offworkTime_rest">
+   <property name="geometry">
+    <rect>
+     <x>500</x>
+     <y>434</y>
+     <width>100</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>100</width>
+     <height>20</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>100</width>
+     <height>20</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="weekdayLable">
+   <property name="geometry">
+    <rect>
+     <x>212</x>
+     <y>461</y>
+     <width>48</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>周日</string>
+   </property>
+  </widget>
+  <widget class="QTimeEdit" name="workTime_weekday">
+   <property name="geometry">
+    <rect>
+     <x>348</x>
+     <y>460</y>
+     <width>100</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>100</width>
+     <height>20</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>100</width>
+     <height>20</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QTimeEdit" name="offworkTime_weekday">
+   <property name="geometry">
+    <rect>
+     <x>500</x>
+     <y>460</y>
+     <width>100</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>100</width>
+     <height>20</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>100</width>
+     <height>20</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pbtnInstall">
+   <property name="geometry">
+    <rect>
+     <x>270</x>
+     <y>510</y>
+     <width>96</width>
+     <height>36</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>设置</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="QpbtnOK">
+   <property name="geometry">
+    <rect>
+     <x>440</x>
+     <y>510</y>
+     <width>96</width>
+     <height>36</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>确认</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

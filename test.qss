@@ -1,0 +1,839 @@
+QDialog[objectName="CLOADING"]{
+border-image:url(:/images/LoadingInit1.png);
+}
+
+QWidget[objectName="CUSER"]{
+border:1px solid rgb(43,68,87);
+border-radius:5px;
+}
+
+QTableWidget[objectName="QUser"]{
+border:1px solid rgb(138,184,208);
+border-radius:5px;
+}
+
+
+QWidget[objectName="HomePage"]{
+border-image:url(:/images/HomePage.png);
+}
+
+QWidget[objectName="CFIND"]{
+border-radius:10px;
+}
+
+QWidget[objectName="Pseudomonas"]{
+border-radius:10px;
+}
+
+QWidget[objectName="QstackeHomepage2"]{
+border-image:url(:/images/Personnel.png);
+
+}
+
+QWidget[objectName="QstackeHomepage3"]{
+border-image:url(:/images/Device.png);
+}
+
+
+QLabel#Login_Label{
+border-image:url(:/images/OfficeParks001_1.png);
+}
+
+QLabel#Title_label{
+border-image:url(:/images/HeadLogin.png);
+}
+
+QLabel#LeaveTypeLabel{
+background-color:rgb(43,68,87);
+}
+
+QLabel#User_label{
+background-color:rgb(43,68,87);
+font: 75 16pt "Agency FB";
+color: rgb(255, 255, 255);
+}
+
+QLabel#Addr_label{
+background-color:rgb(43,68,87);
+color: rgb(123, 165, 188);
+}
+
+QLabel#Record_label{
+background-image:url(:/images/RecordLable.png);
+border-bottom:1px solid white;
+}
+
+QLabel#Label_Left{
+background-color:rgb(105,150,177);
+border:none;
+}
+
+QLabel#Label_Right{
+background-color:rgb(105,150,177);
+border:none;
+}
+
+QLineEdit{
+background-color:transparent;
+border:1px solid rgb(181,181,181);
+}
+
+QLineEdit#QLineUser{
+background-color:transparent;
+border:none
+}
+
+QLineEdit#QlinePass{
+background-color:transparent;
+border:none
+}
+
+QLineEdit#QlineCity{
+background-color:transparent;
+border:none
+}
+
+QLineEdit#Company_lineEdit{
+background-color:transparent;
+border:none
+}
+
+QLineEdit#QRCode_lineEdit{
+background-color:transparent;
+border:none
+}
+
+QLineEdit#Keyword_Edit{
+background-color:transparent;
+border:1px solid rgb(181,181,181);
+}
+
+QLineEdit#Line_Year{
+color:white;
+font-size:18pt;
+border:none;
+background-color:rgb(105,150,177);
+}
+
+QLineEdit#Line_Month{
+color:white;
+font-size:16pt;
+border:none;
+background-color:rgb(105,150,177);
+}
+/*
+QStackedWidget[objectName="Depament_stacked"] QLineEdit{
+background-color:transparent;
+border:none
+}
+
+QStackedWidget[objectName="Dimission_stacked"] QLineEdit{
+background-color:transparent;
+border:none
+}
+*/
+QTextEdit{
+background-color:transparent;
+border:1px solid rgb(181,181,181);
+}
+
+QTextEdit#textEdit{
+background-color:transparent;
+border:none;
+}
+
+QDateEdit{
+background-color:transparent;
+border:1px solid rgb(181,181,181);
+}
+
+QDateTimeEdit{
+background-color:transparent;
+}
+
+
+QComboBox::drop-down{
+background-color:transparent;
+}
+
+QComboBox {
+border:1px solid rgb(181,181,181);
+background-color:rgb(238,236,239);
+font: 75 9pt "微软雅黑";
+}
+
+QComboBox QAbstractItemView
+{
+selection-color:rgb(0,0,0);
+selection-background-color:rgb(180,202,216);
+border:1px solid rgb(181,181,181);
+border-top:none;
+}
+
+QComboBox QAbstractItemView::item {
+min-height: 30px;
+min-width: 60px;
+font: 75 9pt "微软雅黑";
+}
+
+QComboBox#comboBox{
+font: 75 16pt "Agency FB";
+color: rgb(255, 255, 255);
+background-color:transparent;
+border-image:url(:/images/UserBaseMap.png);
+}
+
+QComboBox#comboBox::drop-down{
+background-color:rgb(43,68,87);
+}
+
+/*
+QComboBox#comboBox{
+background-color:transparent;
+}
+
+QComboBox#comboBox::drop-down{
+background-color:transparent;
+}
+*/
+
+QMenu{
+border:1px solid rgb(180,202,216);
+background-color:white;
+selection-background-color:rgb(180,202,216);
+color:rgb(0,0,0);
+}
+
+QCheckBox::indicator{
+border-image:url(:/images/unCheck.png);
+}
+
+QCheckBox::indicator:checked{
+border-image:url(:/images/Check.png);
+}
+
+QCheckBox::indicator:unchecked{
+border-image:url(:/images/unCheck.png);
+}
+
+QWidget[objectName="Pseudomonas"] > QCheckBox{
+color:rgb(105,150,177);
+}
+
+QWidget[objectName="Pseudomonas"] > QCheckBox::indicator:unchecked{
+border-image:url(:/images/LeaveunCheck.png);
+}
+
+QPushButton#QpbtnEquipment{
+border-image:url(:/images/OfficeParks6.png);
+}
+
+QPushButton#QpbtnEquipment:hover{
+border-image:url(:/images/OfficeParks42.png);
+}
+
+QPushButton#QpbtnPersonnel{
+border-image:url(:/images/OfficeParks7.png);
+}
+
+QPushButton#QpbtnPersonnel:hover{
+border-image:url(:/images/OfficeParks43.png);
+}
+
+QPushButton#QpbtnAttendance{
+border-image:url(:/images/OfficeParks8.png);
+}
+
+QPushButton#QpbtnAttendance:hover{
+border-image:url(:/images/OfficeParks44.png);
+}
+
+QPushButton#QpbtnSystem{
+border-image:url(:/images/OfficeParks9.png);
+}
+
+QPushButton#QpbtnSystem:hover{
+border-image:url(:/images/OfficeParks46.png);
+}
+
+QPushButton#QpbtnRecord{
+border-image:url(:/images/OfficeParks10.png);
+}
+
+QPushButton#QpbtnRecord:hover{
+border-image:url(:/images/OfficeParks45.png);
+}
+
+QPushButton#QpbtnAbout{
+border-image:url(:/images/OfficeParks12.png);
+}
+
+QPushButton#QpbtnAbout:hover{
+border-image:url(:/images/OfficeParks47.png);
+}
+
+QPushButton#QpbtnHelp{
+border-image:url(:/images/OfficeParks11.png);
+}
+
+QPushButton#QpbtnHelp:hover{
+border-image:url(:/images/OfficeParks48.png);
+}
+
+QPushButton#QpbtnMax{
+border-image:url(:/images/OfficeParks3-1.png);
+}
+QPushButton#QpbtnMax:hover{
+border-image:url(:/images/OfficeParks3.png);
+}
+
+QPushButton#QpbtnMin{
+border-image:url(:/images/OfficeParks4-1.png);
+}
+QPushButton#QpbtnMin:hover{
+border-image:url(:/images/OfficeParks4.png);
+}
+
+QPushButton#QpbtnShut{
+border-image:url(:/images/OfficeParks5-1.png);
+}
+QPushButton#QpbtnShut:hover{
+border-image:url(:/images/OfficeParks5.png);
+}
+
+
+QPushButton#camp_pushButton{
+background-color:white;
+}
+
+QPushButton#pushButton{
+background-color:white;
+}
+
+QPushButton#QpbtnLoad{
+font: 75 18pt "微软黑体";
+color: rgb(255, 255, 255);
+background-color:transparent;
+border-radius:3px;
+}
+
+ QPushButton#QpbtnLoad:hover{
+background-color:rgb(16,205,67);
+}
+
+ QPushButton#QpbtnLoad:pressed{
+background-color:rgb(0,137,47);
+}
+
+QPushButton#QpbtnRevert{
+font: 75 18pt "微软黑体";
+color: rgb(255, 255, 255);
+background-color:transparent;
+border-radius:3px;
+}
+
+
+ QPushButton#QpbtnRevert:hover{
+background-color:rgb(216,36,0);
+}
+
+ QPushButton#QpbtnRevert:pressed{
+background-color:rgb(190,32,0);
+}
+
+
+ QPushButton{
+background-color:rgb(105,150,177);
+font-size:14pt;
+font-family:"微软黑体";
+color:rgb(255,255,255);
+}
+
+ QPushButton:hover{
+background-color:rgb(75,112,137);
+}
+
+ QPushButton:pressed{
+background-color:rgb(43,68,87);
+}
+
+QPushButton#QpbtnOK{
+background-color:rgb(77,205,112);
+border-radius:3px;
+}
+
+ QPushButton#QpbtnOK:hover{
+background-color:rgb(16,205,67);
+}
+
+ QPushButton#QpbtnOK:pressed{
+background-color:rgb(0,137,47);
+}
+
+QPushButton#QpbtnClose{
+background-color:rgb(230,66,33);
+border-radius:3px;
+}
+
+ QPushButton#QpbtnClose:hover{
+background-color:rgb(216,36,0);
+}
+
+ QPushButton#QpbtnClose:pressed{
+background-color:rgb(190,32,0);
+}
+
+QPushButton#QpbtnSave{
+background-color:rgb(77,205,112);
+border-radius:3px;
+}
+
+ QPushButton#QpbtnSave:hover{
+background-color:rgb(16,205,67);
+}
+
+ QPushButton#QpbtnSave:pressed{
+background-color:rgb(0,137,47);
+}
+
+QPushButton#QpbtnSearch{
+background-color:transparent;
+border-radius:0px;
+background-image:url(:/images/search1.png);
+}
+
+ QPushButton#QpbtnSearch:hover{
+background-image:url(:/images/search2.png);
+}
+
+ QPushButton#QpbtnSearch:pressed{
+background-image:url(:/images/search3.png);
+}
+
+QPushButton#QpbtnRetuen{
+background-color:transparent;
+border-radius:0px;
+background-image:url(:/images/return1.png);
+}
+
+ QPushButton#QpbtnRetuen:hover{
+background-image:url(:/images/return2.png);
+}
+
+ QPushButton#QpbtnRetuen:pressed{
+background-image:url(:/images/return3.png);
+}
+
+QPushButton#QpbtnLogout{
+background-color:transparent;
+border-radius:0px;
+background-image:url(:/images/logout1.png);
+}
+
+ QPushButton#QpbtnLogout:hover{
+background-image:url(:/images/logout2.png);
+}
+
+ QPushButton#QpbtnLogout:pressed{
+background-image:url(:/images/logout3.png);
+}
+
+QPushButton#QpbtnEdit{
+background-color:transparent;
+border-radius:0px;
+background-image:url(:/images/edit1.png);
+}
+
+ QPushButton#QpbtnEdit:hover{
+background-image:url(:/images/edit2.png);
+}
+
+ QPushButton#QpbtnEdit:pressed{
+background-image:url(:/images/edit3.png);
+}
+
+ QPushButton#QpbtnFind{
+border-radius:3px;
+}
+
+ QPushButton#QpbtnDelete{
+border-radius:3px;
+}
+
+ QPushButton#QpbtnClearAllRecord{
+background-image:url(:/images/ClearAllRecord.png);
+border-radius:0px;
+border-bottom:1px solid white;
+}
+
+QPushButton#QpbtnClearAllRecord:hover{
+background-image:url(:/images/HoverClearAllRecord.png);
+}
+
+QPushButton#QpbtnClearAllRecord:pressed{
+background-image:url(:/images/SelectClearAllRecord.png);
+}
+
+QPushButton#QpbtnBack{
+background-image:url(:/images/Back_1.png);
+border-radius:0px;
+}
+QPushButton#QpbtnBack:hover{
+background-image:url(:/images/Back_2.png);
+}
+QPushButton#QpbtnBack:pressed{
+background-image:url(:/images/Back.png);
+}
+
+QPushButton#QpbtnLead{
+background-image:url(:/images/Export_1.png);
+border-radius:0px;
+}
+QPushButton#QpbtnLead:hover{
+background-image:url(:/images/Export_2.png);
+}
+QPushButton#QpbtnLead:pressed{
+background-image:url(:/images/Export.png);
+}
+
+QPushButton#Qpbtn_Left{
+background-image:url(:/images/Left.png);
+border-radius:0px;
+}
+QPushButton#Qpbtn_Left:hover{
+background-image:url(:/images/Left_1.png);
+}
+QPushButton#Qpbtn_Left:pressed{
+background-image:url(:/images/Left_2.png);
+}
+
+QPushButton#Qpbtn_Right{
+background-image:url(:/images/Right.png);
+border-radius:0px;
+}
+QPushButton#Qpbtn_Right:hover{
+background-image:url(:/images/Right_1.png);
+}
+QPushButton#Qpbtn_Right:pressed{
+background-image:url(:/images/Right_2.png);
+}
+
+QPushButton#QpbtnStretching{
+background-image:url(:/images/StretchingL.png);
+border-radius:0px;
+}
+
+/*按键边角曲度设置*/
+QStackedWidget[objectName="stackedWidget"] QPushButton{
+border-radius:3px;
+}
+
+QWidget#CCOMPANY{
+border:2px solid red;
+}
+
+QStackedWidget[objectName="stackedWidget_2"]{
+border:1px solid rgb(138,184,208);
+border-radius:5px;
+}
+
+QStackedWidget[objectName="stackedWidget"]{
+border-right:1px solid rgb(43,68,87);
+border-bottom:1px solid rgb(43,68,87);
+border-top:none;
+border-left:none;
+}
+
+/*所有QTableWidget控件底色等的设置*/
+QTableWidget {
+background-color:rgb(238,236,239);
+border:0.1px solid rgb(255,255,255);
+gridline-color: #FFFFFF;
+}
+
+QTableWidget>QHeaderView{
+background-color: transparent;
+}
+
+QTableWidget>QHeaderView::section {
+     background-color:rgb(209,208,210);
+     color: black;
+     border:1px solid #FFFFFF;
+     border-top:none;
+     border-left:none;
+     height:20px;
+}
+
+/*作为菜单栏QtableWidget控件的底色，字体颜色的设置*/
+QTableWidget[objectName="QType"] {
+background-color:#6996B1;
+border:0.1px solid  transparent;
+gridline-color: #2B4457;
+color: rgb(255, 255, 255);
+font-size:12pt;
+font-family:"微软黑体";
+}
+
+QTableWidget[objectName="QType"]:item{
+border-bottom:1px solid rgb(43,68,87);
+}
+
+QTableWidget[objectName="QType_1"] {
+background-color:#6996B1;
+border:0.1px solid  transparent;
+color: rgb(255, 255, 255);
+font-size:12pt;
+font-family:"微软黑体";
+}
+
+QTableWidget[objectName="QType_1"]:item{
+border-bottom:1px solid rgb(43,68,87);
+}
+
+QTableWidget[objectName="QType_2"] {
+background-color:#6996B1;
+border:0.2px solid  transparent;
+color: rgb(255, 255, 255);
+font-size:12pt;
+font-family:"微软黑体";
+}
+
+QTableWidget[objectName="QType_2"]:item{
+border-bottom:1px solid rgb(43,68,87);
+}
+
+QTableWidget[objectName="QType_3"] {
+background-color:#6996B1;
+border:0.1px solid  transparent;
+color: rgb(255, 255, 255);
+font-size:12pt;
+font-family:"微软黑体";
+}
+
+QTableWidget[objectName="QType_3"]:item{
+border-bottom:1px solid rgb(43,68,87);
+}
+
+QTableWidget[objectName="QType_4"] {
+background-color:#6996B1;
+border:0.1px solid  transparent;
+color: rgb(255, 255, 255);
+font-size:12pt;
+font-family:"微软黑体";
+}
+
+QTableWidget[objectName="QType_4"]:item{
+border-bottom:1px solid rgb(43,68,87);
+}
+
+QTableWidget[objectName="LogTable"] {
+background-color:#6996B1;
+border:0.1px solid  transparent;
+color: rgb(255, 255, 255);
+font-size:12pt;
+font-family:"微软黑体";
+}
+
+QTableWidget[objectName="LogTable"]:item{
+border-bottom:1px solid rgb(43,68,87);
+}
+
+QToolBox[objectName="toolBox_2"] {
+background-color:#6996B1;
+border:0.1px solid  transparent;
+gridline-color: #2B4457;
+color: rgb(255, 255, 255);
+}
+
+QTableWidget::item:hover{
+color:white;
+background-color:rgb(122,167,193);
+}
+
+QTableWidget::item:selected{
+color:white;
+background-color:rgb(138,184,208);
+}
+
+QTableWidget#departmentName::item{
+background-color:rgb(188,210,233);
+}
+
+
+QTableWidget#departmentName::item:hover{
+background-color:rgb(138,184,208);
+}
+
+QTableWidget#departmentName::item:selected{
+background-color:rgb(75,112,137);
+}
+
+QTableWidget#Depament::item{
+background-color:rgb(188,210,233);
+
+}
+
+QTableWidget#Depament::item:hover{
+background-color:rgb(138,184,208);
+}
+
+QTableWidget#Depament::item:selected{
+background-color:rgb(75,112,137);
+}
+
+
+QToolBox#toolBox_2 QToolBoxButton{
+min-height:45px;
+font-size:12pt;
+background-color:rgb(105,150,177);
+border:none;
+}
+
+QToolBox#toolBox_2 QToolBoxButton:hover{
+background-color:rgb(126,167,193)
+}
+
+QToolBox#toolBox_2 QToolBoxButton:selected{
+background-color:rgb(171,193,208)
+}
+
+calendarWidget{
+background-color: rgb(211,219,227);
+}
+
+QTreeView{
+border:1px solid rgb(105,150,177);
+}
+
+QTreeWidget::branch:closed:has-children:!has-siblings,
+QTreeWidget::branch:closed:has-children:has-siblings { image: url(:/images/Add.png);}
+
+QTreeWidget::branch:open:has-children:!has-siblings,
+QTreeWidget::branch:open:has-children:has-siblings { image: url(:/images/OfficeParks4.png); }
+
+
+
+/*时间编辑框下拉
+QDateEdit::drop-down{
+image:url(:/images/Check.png);
+background: rgb(196, 219, 231);
+width: 20px;
+margin-top: 20px;
+margin-bottom: 20px;
+}
+*/
+QDateEdit::down-arrow{
+background-image:url(:/images/Check.png);
+width: 60px;
+margin-top: 40px;
+margin-bottom: 40px;
+}
+
+/*垂直滚动条设置*/
+QScrollBar::vertical {
+background: rgb(255,255,255);
+width: 10px;
+margin-top: 0px;
+margin-bottom: 0px;
+
+}
+
+QScrollBar::handle:vertical {
+     background: rgb(196, 219, 231);
+     min-height: 20px;
+     margin: 0 0px 0 0px;
+     border: none;
+}
+
+QScrollBar::add-line:vertical {
+     height: 0px;
+     subcontrol-position: bottom;
+     subcontrol-origin: margin;
+}
+
+ QScrollBar::sub-line:vertical {
+     height: 0px;
+     subcontrol-position: top;
+     subcontrol-origin: margin;
+}
+
+
+/*
+QScrollBar::up-arrow:vertical, QScrollBar::down-arrow:vertical {
+     border: 1px solid grey;
+     width: 5px;
+     height: 5px;
+     background: white;
+}
+*/
+
+ QScrollBar::add-page:vertical, QScrollBar::sub-page:vertical {
+     background: none;
+}
+
+/*水平滚动条设置*/
+QScrollBar::horizontal {
+background: rgb(255,255,255);
+height: 10px;
+margin:0 0px 0 0px;
+}
+
+QScrollBar::handle:horizontal {
+     background: rgb(196, 219, 231);
+     min-width: 20px;
+     margin: 0 0px 0 0px;
+     border: none;
+}
+
+QScrollBar::add-line:horizontal {
+     width: 0px;
+     subcontrol-position: rigth;
+     subcontrol-origin: margin;
+}
+
+ QScrollBar::sub-line:horizontal {
+     width: 0px;
+     subcontrol-position: left;
+     subcontrol-origin: margin;
+}
+
+ QScrollBar::add-page:horizontal, QScrollBar::sub-page:horizontal {
+     background: none;
+}
+
+
+/*日历界面的设计*/
+QCalendarWidget QTableView
+{
+    border:0.1px solid #95afd8;
+    border-top:0px;
+    background-color:rgb(211,219,227);
+    selection-background-color:#808A87;
+}
+QCalendarWidget QWidget
+{
+  alternate-background-color: rgb(171, 193, 208);
+}
+
+QCalendarWidget QMenu
+{
+    background-color:rgb(105,150,177);
+    border:1px solid gray;
+    color:white;
+}
+
+QCalendarWidget QMenu::item:selected
+{
+    color:white;
+    background-color:rgb(171,193,208);
+}
+
+QCalendarWidget #qt_calendar_navigationbar
+{
+    background-color:rgb(105,150,177);
+}
+
+QPushButtom#QpbtnOK{
+text-shadow: 10px 10px 20px red;
+Box-shadow:40px,40px,24px,24px,gray
+}

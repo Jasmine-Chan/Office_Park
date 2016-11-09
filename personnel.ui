@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>CPERSONNEL</class>
+ <widget class="QWidget" name="CPERSONNEL">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>969</width>
+    <height>566</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QTableWidget" name="QType_2">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>160</width>
+     <height>566</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <row>
+    <property name="text">
+     <string>1</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>2</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>3</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>4</string>
+    </property>
+   </row>
+   <column>
+    <property name="text">
+     <string>1</string>
+    </property>
+   </column>
+   <item row="0" column="0">
+    <property name="text">
+     <string>    公司信息</string>
+    </property>
+   </item>
+   <item row="1" column="0">
+    <property name="text">
+     <string>    部门信息</string>
+    </property>
+   </item>
+   <item row="2" column="0">
+    <property name="text">
+     <string>    员工信息</string>
+    </property>
+   </item>
+   <item row="3" column="0">
+    <property name="text">
+     <string>    离职档案</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QStackedWidget" name="stackedWidget_2">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>184</x>
+     <y>24</y>
+     <width>767</width>
+     <height>523</height>
+    </rect>
+   </property>
+   <property name="lineWidth">
+    <number>0</number>
+   </property>
+   <property name="currentIndex">
+    <number>0</number>
+   </property>
+   <widget class="QWidget" name="QstackeHomepage2">
+    <widget class="QPushButton" name="QpbtnStaff">
+     <property name="geometry">
+      <rect>
+       <x>280</x>
+       <y>160</y>
+       <width>96</width>
+       <height>36</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>员工信息</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="QpbtnCompany">
+     <property name="geometry">
+      <rect>
+       <x>40</x>
+       <y>160</y>
+       <width>96</width>
+       <height>36</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>公司信息</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="QpbtnDimission">
+     <property name="geometry">
+      <rect>
+       <x>400</x>
+       <y>160</y>
+       <width>96</width>
+       <height>36</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>离职员工</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="QpbtnDepartment">
+     <property name="geometry">
+      <rect>
+       <x>160</x>
+       <y>160</y>
+       <width>96</width>
+       <height>36</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>部门信息</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="QstackeCompany"/>
+   <widget class="QWidget" name="QstackeDepartment"/>
+   <widget class="QWidget" name="QstackeStaff"/>
+   <widget class="QWidget" name="QstackeDimission"/>
+   <widget class="QWidget" name="QstackeParameter"/>
+  </widget>
+ </widget>
+ <tabstops>
+  <tabstop>QpbtnCompany</tabstop>
+  <tabstop>QpbtnDepartment</tabstop>
+  <tabstop>QpbtnStaff</tabstop>
+  <tabstop>QpbtnDimission</tabstop>
+ </tabstops>
+ <resources/>
+ <connections/>
+</ui>

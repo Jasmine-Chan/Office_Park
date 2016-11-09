@@ -1,0 +1,795 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>CSTAFF</class>
+ <widget class="QWidget" name="CSTAFF">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>767</width>
+    <height>523</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QStackedWidget" name="Depament_stacked">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>767</width>
+     <height>523</height>
+    </rect>
+   </property>
+   <property name="currentIndex">
+    <number>0</number>
+   </property>
+   <widget class="QWidget" name="page_2">
+    <widget class="QTableWidget" name="Depament">
+     <property name="geometry">
+      <rect>
+       <x>50</x>
+       <y>31</y>
+       <width>690</width>
+       <height>220</height>
+      </rect>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>690</width>
+       <height>220</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>692</width>
+       <height>220</height>
+      </size>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 16pt &quot;微软雅黑&quot;;</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="QpbtnChange">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>270</y>
+       <width>31</width>
+       <height>161</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>样式</string>
+     </property>
+    </widget>
+    <widget class="QTableWidget" name="QStaffList">
+     <property name="geometry">
+      <rect>
+       <x>50</x>
+       <y>258</y>
+       <width>690</width>
+       <height>241</height>
+      </rect>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>690</width>
+       <height>241</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>690</width>
+       <height>192</height>
+      </size>
+     </property>
+    </widget>
+    <widget class="QTableWidget" name="QStaff">
+     <property name="geometry">
+      <rect>
+       <x>50</x>
+       <y>260</y>
+       <width>690</width>
+       <height>241</height>
+      </rect>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>690</width>
+       <height>241</height>
+      </size>
+     </property>
+    </widget>
+    <zorder>QStaffList</zorder>
+    <zorder>Depament</zorder>
+    <zorder>QpbtnChange</zorder>
+    <zorder>QStaff</zorder>
+   </widget>
+   <widget class="QWidget" name="page">
+    <widget class="QPushButton" name="QpbtnSave">
+     <property name="geometry">
+      <rect>
+       <x>260</x>
+       <y>470</y>
+       <width>96</width>
+       <height>36</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>保存</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="QpbtnClose">
+     <property name="geometry">
+      <rect>
+       <x>450</x>
+       <y>470</y>
+       <width>96</width>
+       <height>36</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>取消</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton">
+     <property name="geometry">
+      <rect>
+       <x>25</x>
+       <y>46</y>
+       <width>100</width>
+       <height>120</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="School_E">
+     <property name="geometry">
+      <rect>
+       <x>460</x>
+       <y>204</y>
+       <width>110</width>
+       <height>20</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QLabel" name="Nation_L">
+     <property name="geometry">
+      <rect>
+       <x>400</x>
+       <y>108</y>
+       <width>36</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>民族：</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="Sex_L">
+     <property name="geometry">
+      <rect>
+       <x>400</x>
+       <y>44</y>
+       <width>36</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>性别：</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="BirthDay_L">
+     <property name="geometry">
+      <rect>
+       <x>400</x>
+       <y>76</y>
+       <width>60</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>出生日期：</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="Political_L">
+     <property name="geometry">
+      <rect>
+       <x>400</x>
+       <y>140</y>
+       <width>60</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>政治面貌：</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="NativePlace_L">
+     <property name="geometry">
+      <rect>
+       <x>400</x>
+       <y>172</y>
+       <width>36</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>籍贯：</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="School_L">
+     <property name="geometry">
+      <rect>
+       <x>400</x>
+       <y>204</y>
+       <width>60</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>毕业院校：</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="Specilty_L">
+     <property name="geometry">
+      <rect>
+       <x>400</x>
+       <y>236</y>
+       <width>36</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>专业：</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="Educational_L">
+     <property name="geometry">
+      <rect>
+       <x>400</x>
+       <y>268</y>
+       <width>36</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>学历：</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="Remarks_L">
+     <property name="geometry">
+      <rect>
+       <x>400</x>
+       <y>300</y>
+       <width>36</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>备注：</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="Specilty_E">
+     <property name="geometry">
+      <rect>
+       <x>432</x>
+       <y>236</y>
+       <width>110</width>
+       <height>20</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="NativePlace_E">
+     <property name="geometry">
+      <rect>
+       <x>432</x>
+       <y>172</y>
+       <width>110</width>
+       <height>20</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="CardNo_E">
+     <property name="geometry">
+      <rect>
+       <x>226</x>
+       <y>332</y>
+       <width>110</width>
+       <height>20</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QLabel" name="Number_L">
+     <property name="geometry">
+      <rect>
+       <x>166</x>
+       <y>76</y>
+       <width>36</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>工号：</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="Department_L">
+     <property name="geometry">
+      <rect>
+       <x>166</x>
+       <y>108</y>
+       <width>36</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>部门：</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="Position_L">
+     <property name="geometry">
+      <rect>
+       <x>166</x>
+       <y>140</y>
+       <width>36</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>职位：</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="Marry_L">
+     <property name="geometry">
+      <rect>
+       <x>166</x>
+       <y>364</y>
+       <width>36</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>婚否：</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="JobTime_L">
+     <property name="geometry">
+      <rect>
+       <x>166</x>
+       <y>172</y>
+       <width>60</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>入职时间：</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="Status_L">
+     <property name="geometry">
+      <rect>
+       <x>166</x>
+       <y>204</y>
+       <width>36</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>状态：</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="Telephone_L">
+     <property name="geometry">
+      <rect>
+       <x>166</x>
+       <y>236</y>
+       <width>60</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>联系电话：</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="Name_L">
+     <property name="geometry">
+      <rect>
+       <x>166</x>
+       <y>44</y>
+       <width>36</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>姓名：</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="Mailbox_L">
+     <property name="geometry">
+      <rect>
+       <x>166</x>
+       <y>268</y>
+       <width>36</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>邮箱：</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="Addr_L">
+     <property name="geometry">
+      <rect>
+       <x>166</x>
+       <y>300</y>
+       <width>60</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>通讯地址：</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="CardNo_L">
+     <property name="geometry">
+      <rect>
+       <x>166</x>
+       <y>332</y>
+       <width>60</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>身份证号：</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="Graduation_L">
+     <property name="geometry">
+      <rect>
+       <x>166</x>
+       <y>396</y>
+       <width>60</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>毕业时间：</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="Addr_E">
+     <property name="geometry">
+      <rect>
+       <x>226</x>
+       <y>300</y>
+       <width>110</width>
+       <height>20</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="Position_E">
+     <property name="geometry">
+      <rect>
+       <x>202</x>
+       <y>140</y>
+       <width>110</width>
+       <height>20</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="Name_E">
+     <property name="geometry">
+      <rect>
+       <x>202</x>
+       <y>44</y>
+       <width>110</width>
+       <height>20</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="Number_E">
+     <property name="geometry">
+      <rect>
+       <x>202</x>
+       <y>76</y>
+       <width>110</width>
+       <height>20</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="Telephone_E">
+     <property name="geometry">
+      <rect>
+       <x>226</x>
+       <y>236</y>
+       <width>110</width>
+       <height>20</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="Mailbox_E">
+     <property name="geometry">
+      <rect>
+       <x>202</x>
+       <y>268</y>
+       <width>110</width>
+       <height>20</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="QpbtnRetuen">
+     <property name="geometry">
+      <rect>
+       <x>703</x>
+       <y>331</y>
+       <width>64</width>
+       <height>64</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="QpbtnLogout">
+     <property name="geometry">
+      <rect>
+       <x>703</x>
+       <y>395</y>
+       <width>64</width>
+       <height>64</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="QpbtnEdit">
+     <property name="geometry">
+      <rect>
+       <x>703</x>
+       <y>459</y>
+       <width>64</width>
+       <height>64</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QDateEdit" name="JobTime_E">
+     <property name="geometry">
+      <rect>
+       <x>226</x>
+       <y>172</y>
+       <width>110</width>
+       <height>20</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QDateEdit" name="BirthDay_E">
+     <property name="geometry">
+      <rect>
+       <x>460</x>
+       <y>76</y>
+       <width>110</width>
+       <height>20</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QDateEdit" name="Graduation_E">
+     <property name="geometry">
+      <rect>
+       <x>226</x>
+       <y>396</y>
+       <width>110</width>
+       <height>20</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QComboBox" name="Sex_E">
+     <property name="geometry">
+      <rect>
+       <x>432</x>
+       <y>44</y>
+       <width>110</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <item>
+      <property name="text">
+       <string>男</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>女</string>
+      </property>
+     </item>
+    </widget>
+    <widget class="QComboBox" name="Nation_E">
+     <property name="geometry">
+      <rect>
+       <x>432</x>
+       <y>108</y>
+       <width>110</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <item>
+      <property name="text">
+       <string>汉族</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>满族</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>回族</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>其他</string>
+      </property>
+     </item>
+    </widget>
+    <widget class="QComboBox" name="Political_E">
+     <property name="geometry">
+      <rect>
+       <x>460</x>
+       <y>140</y>
+       <width>110</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <item>
+      <property name="text">
+       <string>群众</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>团员</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>党员</string>
+      </property>
+     </item>
+    </widget>
+    <widget class="QComboBox" name="Educational_E">
+     <property name="geometry">
+      <rect>
+       <x>432</x>
+       <y>268</y>
+       <width>110</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <item>
+      <property name="text">
+       <string>小学</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>初中</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>高中</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>大学</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>硕士</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>博士</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>教授</string>
+      </property>
+     </item>
+    </widget>
+    <widget class="QComboBox" name="Marry_E">
+     <property name="geometry">
+      <rect>
+       <x>202</x>
+       <y>364</y>
+       <width>110</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <item>
+      <property name="text">
+       <string>未婚</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>已婚</string>
+      </property>
+     </item>
+    </widget>
+    <widget class="QComboBox" name="Status_E">
+     <property name="geometry">
+      <rect>
+       <x>202</x>
+       <y>204</y>
+       <width>110</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <item>
+      <property name="text">
+       <string>在职</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>注销</string>
+      </property>
+     </item>
+    </widget>
+    <widget class="QComboBox" name="Department_E">
+     <property name="geometry">
+      <rect>
+       <x>202</x>
+       <y>108</y>
+       <width>110</width>
+       <height>20</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QTextEdit" name="Remarks_E">
+     <property name="geometry">
+      <rect>
+       <x>432</x>
+       <y>300</y>
+       <width>230</width>
+       <height>100</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QTextEdit" name="textEdit">
+     <property name="geometry">
+      <rect>
+       <x>5</x>
+       <y>170</y>
+       <width>161</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="html">
+      <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'SimSun'; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;  点击上传图片&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;（像素比例大于90x120）&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

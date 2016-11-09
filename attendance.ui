@@ -1,0 +1,590 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>CATTENDANCE</class>
+ <widget class="QWidget" name="CATTENDANCE">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>960</width>
+    <height>566</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">border-color: rgb(43, 68, 87);</string>
+  </property>
+  <widget class="QToolBox" name="toolBox_2">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>150</width>
+     <height>566</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="currentIndex">
+    <number>1</number>
+   </property>
+   <property name="tabSpacing">
+    <number>0</number>
+   </property>
+   <widget class="QWidget" name="page">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>100</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <attribute name="label">
+     <string>    考勤系统</string>
+    </attribute>
+    <widget class="QTableWidget" name="QType_3">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>150</width>
+       <height>560</height>
+      </rect>
+     </property>
+     <row>
+      <property name="text">
+       <string>1</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>2</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>3</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>4</string>
+      </property>
+     </row>
+     <column>
+      <property name="text">
+       <string>1</string>
+      </property>
+     </column>
+     <item row="0" column="0">
+      <property name="text">
+       <string>      设置</string>
+      </property>
+     </item>
+     <item row="1" column="0">
+      <property name="text">
+       <string>   法定节假日</string>
+      </property>
+     </item>
+     <item row="2" column="0">
+      <property name="text">
+       <string>     补打卡</string>
+      </property>
+     </item>
+     <item row="3" column="0">
+      <property name="text">
+       <string>    请/休假</string>
+      </property>
+     </item>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="page_2">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>150</width>
+      <height>526</height>
+     </rect>
+    </property>
+    <attribute name="label">
+     <string>    考勤报表</string>
+    </attribute>
+    <widget class="QTableWidget" name="QType_4">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>150</width>
+       <height>560</height>
+      </rect>
+     </property>
+     <row>
+      <property name="text">
+       <string>1</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>2</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>3</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>4</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>5</string>
+      </property>
+     </row>
+     <column>
+      <property name="text">
+       <string>1</string>
+      </property>
+     </column>
+     <item row="0" column="0">
+      <property name="text">
+       <string>     数据采集</string>
+      </property>
+     </item>
+     <item row="1" column="0">
+      <property name="text">
+       <string>   原始考勤表</string>
+      </property>
+     </item>
+     <item row="2" column="0">
+      <property name="text">
+       <string>   考勤明细表</string>
+      </property>
+     </item>
+     <item row="3" column="0">
+      <property name="text">
+       <string>   考勤日报表</string>
+      </property>
+     </item>
+     <item row="4" column="0">
+      <property name="text">
+       <string>   考勤月报表</string>
+      </property>
+     </item>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QStackedWidget" name="stackedWidget_3">
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>-10</y>
+     <width>810</width>
+     <height>566</height>
+    </rect>
+   </property>
+   <property name="currentIndex">
+    <number>10</number>
+   </property>
+   <widget class="QWidget" name="QstackeHomepage3">
+    <widget class="QPushButton" name="QpbtnLeave">
+     <property name="geometry">
+      <rect>
+       <x>80</x>
+       <y>200</y>
+       <width>96</width>
+       <height>36</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>请/休假</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="QpbtnDay">
+     <property name="geometry">
+      <rect>
+       <x>260</x>
+       <y>320</y>
+       <width>96</width>
+       <height>36</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>考勤日报表</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="QpbtnAttendanceSet">
+     <property name="geometry">
+      <rect>
+       <x>80</x>
+       <y>80</y>
+       <width>96</width>
+       <height>36</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>设置</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="QpbtnHolidaysSet">
+     <property name="geometry">
+      <rect>
+       <x>260</x>
+       <y>80</y>
+       <width>96</width>
+       <height>36</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>法定节假日</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="QpbtnManually">
+     <property name="geometry">
+      <rect>
+       <x>440</x>
+       <y>80</y>
+       <width>96</width>
+       <height>36</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>补打卡</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="QpbtnCollect">
+     <property name="geometry">
+      <rect>
+       <x>260</x>
+       <y>200</y>
+       <width>96</width>
+       <height>36</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>数据采集</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="QpbtnMonthly">
+     <property name="geometry">
+      <rect>
+       <x>440</x>
+       <y>320</y>
+       <width>96</width>
+       <height>36</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>考勤月报表</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="QpbtnOriginal">
+     <property name="geometry">
+      <rect>
+       <x>440</x>
+       <y>210</y>
+       <width>96</width>
+       <height>36</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>原始考勤表</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="QpbtnDetail">
+     <property name="geometry">
+      <rect>
+       <x>80</x>
+       <y>320</y>
+       <width>96</width>
+       <height>36</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>考勤明细表</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="QstackeAttendanceSet"/>
+   <widget class="QWidget" name="QstackeHolidaysSet">
+    <widget class="QCalendarWidget" name="HolidayCalendarWidget">
+     <property name="geometry">
+      <rect>
+       <x>142</x>
+       <y>34</y>
+       <width>526</width>
+       <height>289</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true"/>
+     </property>
+    </widget>
+    <widget class="QTableWidget" name="tableWidget">
+     <property name="geometry">
+      <rect>
+       <x>142</x>
+       <y>350</y>
+       <width>600</width>
+       <height>200</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 12pt &quot;Arial&quot;;
+</string>
+     </property>
+    </widget>
+    <widget class="QComboBox" name="holidayType">
+     <property name="geometry">
+      <rect>
+       <x>680</x>
+       <y>60</y>
+       <width>100</width>
+       <height>30</height>
+      </rect>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="QstackeManually">
+    <widget class="QTreeWidget" name="Fillcard_tree">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>50</y>
+       <width>150</width>
+       <height>301</height>
+      </rect>
+     </property>
+     <column>
+      <property name="text">
+       <string notr="true">1</string>
+      </property>
+     </column>
+    </widget>
+    <widget class="QTableWidget" name="FullCardDate">
+     <property name="geometry">
+      <rect>
+       <x>200</x>
+       <y>350</y>
+       <width>531</width>
+       <height>200</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QCalendarWidget" name="FilloutCalendarWidget">
+     <property name="geometry">
+      <rect>
+       <x>200</x>
+       <y>40</y>
+       <width>526</width>
+       <height>289</height>
+      </rect>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>300</width>
+       <height>200</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>4444444</width>
+       <height>4444444</height>
+      </size>
+     </property>
+     <property name="styleSheet">
+      <string notr="true"/>
+     </property>
+    </widget>
+    <widget class="QGroupBox" name="groupBox">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>370</y>
+       <width>151</width>
+       <height>91</height>
+      </rect>
+     </property>
+     <property name="title">
+      <string>查询时间段</string>
+     </property>
+     <widget class="QDateEdit" name="QdateStime">
+      <property name="geometry">
+       <rect>
+        <x>59</x>
+        <y>20</y>
+        <width>81</width>
+        <height>22</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QDateEdit" name="QdateEtime">
+      <property name="geometry">
+       <rect>
+        <x>59</x>
+        <y>60</y>
+        <width>81</width>
+        <height>22</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QCheckBox" name="QchkStime">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>20</y>
+        <width>51</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>始</string>
+      </property>
+     </widget>
+     <widget class="QCheckBox" name="QchkEtime">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>60</y>
+        <width>41</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>末</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QGroupBox" name="groupBox_2">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>470</y>
+       <width>151</width>
+       <height>80</height>
+      </rect>
+     </property>
+     <property name="title">
+      <string>补卡类型</string>
+     </property>
+     <widget class="QCheckBox" name="QchkGo">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>20</y>
+        <width>71</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>上班卡</string>
+      </property>
+     </widget>
+     <widget class="QCheckBox" name="QchkOff">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>50</y>
+        <width>71</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>下班卡</string>
+      </property>
+     </widget>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="QstackeLeave"/>
+   <widget class="QWidget" name="QstackeOriginal"/>
+   <widget class="QWidget" name="QstackeDetail"/>
+   <widget class="QWidget" name="QstackeDay"/>
+   <widget class="QWidget" name="QstackeMonthly"/>
+   <widget class="QWidget" name="Qiconico"/>
+   <widget class="QWidget" name="QstackeAcquisition">
+    <widget class="QPushButton" name="pbtnAcquisition">
+     <property name="geometry">
+      <rect>
+       <x>130</x>
+       <y>20</y>
+       <width>75</width>
+       <height>40</height>
+      </rect>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>75</width>
+       <height>40</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>75</width>
+       <height>40</height>
+      </size>
+     </property>
+     <property name="sizeIncrement">
+      <size>
+       <width>0</width>
+       <height>-20708</height>
+      </size>
+     </property>
+     <property name="text">
+      <string>数据采集</string>
+     </property>
+    </widget>
+    <widget class="QProgressBar" name="racddate_Bar">
+     <property name="geometry">
+      <rect>
+       <x>130</x>
+       <y>105</y>
+       <width>291</width>
+       <height>23</height>
+      </rect>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>291</width>
+       <height>23</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>291</width>
+       <height>23</height>
+      </size>
+     </property>
+     <property name="value">
+      <number>0</number>
+     </property>
+    </widget>
+    <widget class="QTableWidget" name="Doormachine">
+     <property name="geometry">
+      <rect>
+       <x>130</x>
+       <y>145</y>
+       <width>550</width>
+       <height>400</height>
+      </rect>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>550</width>
+       <height>400</height>
+      </size>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="Qstacke_11"/>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

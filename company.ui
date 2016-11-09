@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>CCOMPANY</class>
+ <widget class="QWidget" name="CCOMPANY">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>767</width>
+    <height>523</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">border-color: rgb(0, 0, 0);</string>
+  </property>
+  <widget class="QLineEdit" name="Company_lineEdit">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>100</y>
+     <width>258</width>
+     <height>16</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="QRCode_lineEdit">
+   <property name="geometry">
+    <rect>
+     <x>669</x>
+     <y>100</y>
+     <width>71</width>
+     <height>20</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="QpbtnClose">
+   <property name="geometry">
+    <rect>
+     <x>460</x>
+     <y>450</y>
+     <width>96</width>
+     <height>36</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>退出</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="QpbtnSave">
+   <property name="geometry">
+    <rect>
+     <x>290</x>
+     <y>450</y>
+     <width>96</width>
+     <height>36</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>保存</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="QpbtnAddCompany">
+   <property name="geometry">
+    <rect>
+     <x>120</x>
+     <y>450</y>
+     <width>96</width>
+     <height>36</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>修改</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="camp_pushButton">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>12</y>
+     <width>200</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>661</x>
+     <y>12</y>
+     <width>80</width>
+     <height>80</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>80</width>
+     <height>80</height>
+    </size>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-image: url(:/images/OfficeParks25.png);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_8">
+   <property name="geometry">
+    <rect>
+     <x>51</x>
+     <y>230</y>
+     <width>84</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>公司详细地址：</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_6">
+   <property name="geometry">
+    <rect>
+     <x>51</x>
+     <y>185</y>
+     <width>84</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>公司英文名称：</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_9">
+   <property name="geometry">
+    <rect>
+     <x>51</x>
+     <y>277</y>
+     <width>84</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>公司主负责人：</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_10">
+   <property name="geometry">
+    <rect>
+     <x>51</x>
+     <y>320</y>
+     <width>84</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>公司固定电话：</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_7">
+   <property name="geometry">
+    <rect>
+     <x>51</x>
+     <y>363</y>
+     <width>84</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>公司传真号码：</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>51</x>
+     <y>140</y>
+     <width>84</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>公司中文名称：</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="QlineCompanyCName">
+   <property name="geometry">
+    <rect>
+     <x>141</x>
+     <y>140</y>
+     <width>300</width>
+     <height>30</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="QlineCompanyEName">
+   <property name="geometry">
+    <rect>
+     <x>141</x>
+     <y>185</y>
+     <width>300</width>
+     <height>30</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="QlineCompanyAddr">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>141</x>
+     <y>230</y>
+     <width>300</width>
+     <height>30</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="QlineCompanyLegalPerson">
+   <property name="geometry">
+    <rect>
+     <x>141</x>
+     <y>277</y>
+     <width>300</width>
+     <height>30</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="QlineCompanyPhone">
+   <property name="geometry">
+    <rect>
+     <x>141</x>
+     <y>320</y>
+     <width>300</width>
+     <height>30</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="QlineCompanyFax">
+   <property name="geometry">
+    <rect>
+     <x>141</x>
+     <y>363</y>
+     <width>300</width>
+     <height>30</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QTableWidget" name="QStaffList">
+   <property name="geometry">
+    <rect>
+     <x>490</x>
+     <y>210</y>
+     <width>256</width>
+     <height>192</height>
+    </rect>
+   </property>
+  </widget>
+  <zorder>label_8</zorder>
+  <zorder>label_6</zorder>
+  <zorder>label_9</zorder>
+  <zorder>label_10</zorder>
+  <zorder>label_7</zorder>
+  <zorder>label_2</zorder>
+  <zorder>QlineCompanyCName</zorder>
+  <zorder>QlineCompanyEName</zorder>
+  <zorder>QlineCompanyAddr</zorder>
+  <zorder>QlineCompanyLegalPerson</zorder>
+  <zorder>QlineCompanyPhone</zorder>
+  <zorder>QlineCompanyFax</zorder>
+  <zorder>QpbtnClose</zorder>
+  <zorder>QpbtnSave</zorder>
+  <zorder>QpbtnAddCompany</zorder>
+  <zorder>camp_pushButton</zorder>
+  <zorder>pushButton</zorder>
+  <zorder>Company_lineEdit</zorder>
+  <zorder>QRCode_lineEdit</zorder>
+  <zorder>QStaffList</zorder>
+ </widget>
+ <tabstops>
+  <tabstop>QpbtnAddCompany</tabstop>
+  <tabstop>QpbtnSave</tabstop>
+  <tabstop>QpbtnClose</tabstop>
+  <tabstop>QlineCompanyCName</tabstop>
+  <tabstop>QlineCompanyEName</tabstop>
+  <tabstop>QlineCompanyAddr</tabstop>
+  <tabstop>QlineCompanyLegalPerson</tabstop>
+  <tabstop>QlineCompanyPhone</tabstop>
+  <tabstop>QlineCompanyFax</tabstop>
+ </tabstops>
+ <resources/>
+ <connections/>
+</ui>
